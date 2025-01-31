@@ -62,7 +62,7 @@ Widget build(BuildContext context) {
             final PokemonListItem pokemon = _pokemonList[index];
             final int pokemonId = index + 1;
             final String imageUrl =
-                'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/$pokemonId.png';
+                'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/$pokemonId.png'; // Official Artwork ให้ภาพชัด
 
             return GestureDetector(
               onTap: () => Navigator.push(
